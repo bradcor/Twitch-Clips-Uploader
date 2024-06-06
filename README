@@ -16,3 +16,5 @@ Reply includes:
 - Clip date
 
 If clips fail to post or gather due to errors (api, internet, unknown), an email is queued and sent to designated email with formatted error message.
+
+Also includes an experimental video converter to make verticle video in the format of Tiktok and Youtube Shorts.
