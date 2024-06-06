@@ -1,0 +1,18 @@
+Reads recent clips from Twitch channel and posts them to twitter account
+
+Twitch clips gathered are from the past week, in case a user clips something from a VOD.
+Clips with !clip or !noclips in the title will be ignored, all others will be gathered.
+
+Clips are gathered at midnight localhost time and are uploaded once every hour between 10 AM and 10 PM localhost time.
+
+Post includes:
+- Title
+- Clip
+Reply includes:
+- URL
+- Title
+- Game
+- Clip author
+- Clip date
+
+If clips fail to post or gather due to errors (api, internet, unknown), an email is queued and sent to designated email with formatted error message.
